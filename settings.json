@@ -1,95 +1,100 @@
 {
-	"workbench.startupEditor": "newUntitledFile",
-	// Define o editor inicial ao iniciar o Visual Studio Code.
-  
-	"workbench.colorTheme": "Shades of Purple (Super Dark)",
-	// Define o tema
-  
-	"update.mode": "start",
-	// Define o modo de atualização do Visual Studio Code.
-  
-	"symbols.hidesExplorerArrows": false,
-	// Habilita ou desabilita a ocultação das setas de expansão no Explorer.
-  
-	"files.autoSave": "onFocusChange",
-	// Define quando os arquivos devem ser salvos automaticamente.
-  
-	"editor.minimap.enabled": false,
-	// Habilita ou desabilita o minimapa no editor.
-  
-	"editor.wordWrap": "on",
-	// Modifica a quebra de linha
-  
-	"[json]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	// Configura o formatador padrão para arquivos JSON.
-  
-	"[jsonc]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	// Configura o formatador padrão para arquivos JSONC.
-  
-	"[html]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	// Configura o formatador padrão para arquivos HTML.
-  
-	"workbench.editor.labelFormat": "short",
-	// Define o formato de rótulo dos editores abertos no VS Code.
-  
-	"editor.semanticHighlighting.enabled": true,
-	// Habilita ou desabilita o realce semântico no editor.
-  
-	"editor.renderLineHighlight": "all",
-	// Configura o realce de linha no editor
-  
-	"workbench.colorCustomizations": {
-	  "editor.lineHighlightBorder": "#80808010",
-	  "editorIndentGuide.background1": "#303030"
-	},
-	// Define customizações de cores para o editor do VS Code.
-  
-	"editor.lineHeight": 1.4,
-	// Define a altura das linhas no editor.
-  
-	"editor.fontSize": 13.7,
-	// Define o tamanho da fonte no editor.
-  
-	"editor.lineNumbers": "on",
-	// Define a exibição dos números de linha no editor.
-  
-	"prettier.configPath": "Configurações do VSCode\\.prettierrc",
-	// Define o caminho para o arquivo de configuração do Prettier.
-  
-	"explorer.compactFolders": false,
-	// Habilita ou desabilita a compactação de pastas no Explorer.
-	
-	"breadcrumbs.enabled": true,
-	// Habilita ou desabilita a exibição de breadcrumbs (caminho do arquivo).
-  
-	"workbench.activityBar.location": "default",
-	// Define a localização da barra de atividades no VS Code.
-  
-	"breadcrumbs.filePath": "on",
-	// Define a exibição do caminho do arquivo no breadcrumb
-  
-	"apc.header": {
-	  "height": 27
-	},
-	// Define a altura do cabeçalho no editor.
-  
-	"apc.listRow": {
-	  "height": 17
-	},
-	// Define a altura das linhas de lista no editor.
-  
-	"apc.stylesheet": {
-	  ".pane-body": "padding: 0"
-	},
-	// Aplica estilos CSS personalizados ao editor.
-  
-	"window.commandCenter": false
-	// Desabilita o Command Center (Ctrl+Shift+P).
-  }
-  
+   "workbench.startupEditor": "newUntitledFile",
+   // Define o editor inicial ao iniciar o Visual Studio Code.
+
+   "workbench.colorTheme": "Shades of Purple (Super Dark)",
+   // Define o tema
+
+   "update.mode": "start",
+   // Define o modo de atualização do Visual Studio Code.
+
+   "symbols.hidesExplorerArrows": false,
+   // Habilita ou desabilita a ocultação das setas de expansão no Explorer.
+
+   "files.autoSave": "onFocusChange",
+   // Define quando os arquivos devem ser salvos automaticamente.
+
+   "editor.minimap.enabled": false,
+   // Habilita ou desabilita o minimapa no editor.
+
+   "editor.wordWrap": "on",
+   // Modifica a quebra de linha
+
+   "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   // Configura o formatador padrão para arquivos JSON.
+
+   "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   // Configura o formatador padrão para arquivos JSONC.
+
+   "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   // Configura o formatador padrão para arquivos HTML.
+
+   "workbench.editor.labelFormat": "short",
+   // Define o formato de rótulo dos editores abertos no VS Code.
+
+   "editor.semanticHighlighting.enabled": true,
+   // Habilita ou desabilita o realce semântico no editor.
+
+   "editor.renderLineHighlight": "all",
+   // Configura o realce de linha no editor
+
+   "workbench.colorCustomizations": {
+      "editor.lineHighlightBorder": "#80808010",
+      "editorIndentGuide.background1": "#303030"
+   },
+   // Define customizações de cores para o editor do VS Code.
+
+   "editor.lineHeight": 1.4,
+   // Define a altura das linhas no editor.
+
+   "editor.fontSize": 13.7,
+   // Define o tamanho da fonte no editor.
+
+   "editor.lineNumbers": "on",
+   // Define a exibição dos números de linha no editor.
+
+   "prettier.configPath": "Configurações do VSCode\\.prettierrc",
+   // Define o caminho para o arquivo de configuração do Prettier.
+
+   "explorer.compactFolders": false,
+   // Habilita ou desabilita a compactação de pastas no Explorer.
+
+   "breadcrumbs.enabled": true,
+   // Habilita ou desabilita a exibição de breadcrumbs (caminho do arquivo).
+
+   "workbench.activityBar.location": "default",
+   // Define a localização da barra de atividades no VS Code.
+
+   "breadcrumbs.filePath": "on",
+   // Define a exibição do caminho do arquivo no breadcrumb
+
+   "apc.header": {
+      "height": 27
+   },
+   // Define a altura do cabeçalho no editor.
+
+   "apc.listRow": {
+      "height": 17
+   },
+   // Define a altura das linhas de lista no editor.
+
+   "apc.stylesheet": {
+      ".pane-body": "padding: 0"
+   },
+   // Aplica estilos CSS personalizados ao editor.
+
+   "window.commandCenter": false,
+   // Desabilita o Command Center (Ctrl+Shift+P).
+   "editor.tabSize": 3, // Tamanho do tab definido para 3 espaços
+   "editor.insertSpaces": true, // Usa espaços em vez de tabs
+
+   // Configuração do Prettier
+   "prettier.tabWidth": 3, // Alinha o tamanho do tab do Prettier com o tamanho de tab do editor
+   "prettier.useTabs": false // Garante que o Prettier use espaços em vez de tabs
+}
