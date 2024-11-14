@@ -101,5 +101,6 @@
   "workbench.iconTheme": "symbols",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true // Garante que o Prettier use espaços em vez de tabs
+  "material-icon-theme.saturation": 1, // Garante que o Prettier use espaços em vez de tabs
+  "editor.hover.enabled": false
 }
