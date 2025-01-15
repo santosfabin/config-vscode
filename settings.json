@@ -46,9 +46,17 @@
 
   "workbench.colorCustomizations": {
     "editor.lineHighlightBorder": "#80808010",
-    "editorIndentGuide.background1": "#303030"
+    "editorIndentGuide.background": "#303030",
+    "editorIndentGuide.activeBackground": "#6f6ac4"
   },
   // Define customizações de cores para o editor do VS Code.
+
+  "indentRainbow.colors": [
+    "#4a148c30", // Primeiro nível - Roxo escuro translúcido
+    "#512da830" // Quinto nível - Verde escuro translúcido, ainda no tema
+  ],
+
+  "indentRainbow.errorColor": "#d32f2f50", // Cor de erro para indentação, translúcido
 
   "editor.lineHeight": 1.4,
   // Define a altura das linhas no editor.
@@ -59,7 +67,7 @@
   "editor.lineNumbers": "on",
   // Define a exibição dos números de linha no editor.
 
-  "prettier.configPath": "/home/santos/Documents/progm/vscode/.prettierrc",
+  "prettier.configPath": "/home/gengar/Documents/progm/vscode/.prettierrc",
   // Define o caminho para o arquivo de configuração do Prettier.
 
   "explorer.compactFolders": false,
@@ -98,9 +106,13 @@
   "prettier.tabWidth": 2, // Alinha o tamanho do tab do Prettier com o tamanho de tab do editor
   "prettier.useTabs": false,
   "tabnine.experimentalAutoImports": true,
-  "workbench.iconTheme": "symbols",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.saturation": 1, // Garante que o Prettier use espaços em vez de tabs
-  "editor.hover.enabled": false
+  "editor.hover.enabled": false,
+  "liveServer.settings.CustomBrowser": "firefox",
+  "color-highlight.markerType": "outline",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
 }
